@@ -1,4 +1,5 @@
-```pythonrunable
+```python runnable
+
 print("List as a stack data structure")
 
 
@@ -8,9 +9,12 @@ stack.pop(1) # remove the value on 1 index which is 6
 print(stack) #print stack
 stack.append("Mango") # append Mango value in stack
 print(stack) #print stack
+
 ```
 
-```pythonrunable
+```python runnable
+
+
 print("Set Data Structure in Python")
 sets = {123, 345, 678, 321}
 # sets.clear()
@@ -37,7 +41,8 @@ print(values)
 print(values.count("apple"))
 
 print(values.index(78))
-
+```
+```python runnable
 
 from collections import deque
 print("List as a queue data structure in python")
@@ -52,6 +57,8 @@ queue.popleft()
 print(queue)
 queue.pop()
 print(queue)
+```
+```python runnable
 
 
 class nodeClass:
@@ -100,6 +107,9 @@ llist.insertAtPosition(4, 2)
 llist.insertAtPosition(7, 3)
 
 llist.printList()
+```
+
+```python runnable
 
 
 class Node:
@@ -126,6 +136,11 @@ list.head.next = nextHead
 nextHead.next = nextHead1
 
 list.displayList()
+
+```
+
+```python runnable
+
 
 print("Small Flight Management System using Python Dictionary")
 
@@ -165,6 +180,10 @@ flightmanagementsystem.addingNewUser(123458, "CNIC", "De Developer", 24)
 flightmanagementsystem.addingNewUser(12334523428, "Passport", "De Shah", 64)
 flightmanagementsystem.displayList()
 
+```
+
+```python runnable
+
 
 # Create an empty stack
 stack = []
@@ -188,6 +207,12 @@ print(stack.pop())  # Output: 1
                             # order. The output of the pop()method is the
                             # last item that was added to the stack
 
+
+```
+
+```python runnable
+
+
 print("Example on Dictionary DSA using Python")
 class carsClass:
 
@@ -208,6 +233,9 @@ carsclass = carsClass()
 carsclass.addingNewCar("Toyota1", 200000)
 carsclass.displayList()
 
+```
+
+```python runnable
 
 print("Dictionary in Python")
 
@@ -219,6 +247,10 @@ print(sorted(dictt))
 print(dictt)
 del (dictt["grapes"])
 print(dictt)
+
+```
+
+```python runnable
 
 
 class user:
@@ -265,6 +297,9 @@ user1.login()
 user1.inputFromUSer()
 user1.outPutForUser()
 
+```
+
+```python runnable
 
 
 print("Small Student Management System using Dictionary in Python")
@@ -318,5 +353,5 @@ studentdata = studentData()
 studentdata.addingNewSTudent("MR. Developer", 206274, 35,923469745939)
 studentdata.DIsplayListOfStudent()
 
-
+```
 
